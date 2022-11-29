@@ -1,8 +1,5 @@
-﻿Console.WriteLine("Введите первые слово, цифру или символ");
-string name1 = Console.ReadLine();
-Console.WriteLine("Введите вторые слово, цифру или символ");
-string name2 = Console.ReadLine();
-Console.WriteLine("Введите третьи слово, цифру или символ");
-string name3 = Console.ReadLine();
-
-
+﻿string[] arrayOne;
+Console.WriteLine("Введите массив строк через пробел");
+string stroke = Console.ReadLine();
+arrayOne = stroke.Split(' ');
+string[] arrayTwo = new string[arrayOne.Length];
